@@ -17,7 +17,7 @@ public class Program{
     //descobrindo a posição X do jogador e a posição X do inimigo
       
     //se elas forem menores que 5 você pode atacar, senão não pode atacar
-    if (((ax - bx <= 5) || (bx - ax <= 5)) || ((ax - bx <= -5) || (bx - ax <= -5))){
+    if(((ax - bx <= 5) || (bx - ax <= 5)) || ((ax - bx <= -5) || (bx - ax <= -5))){
         Console.WriteLine("Ataca");
     }else{
     Console.WriteLine("Não Ataca");
