@@ -10,7 +10,7 @@ public class Program{
     int ax,bx;    
     	
     Console.WriteLine("Informe a posição X do jogador:");
-   	ax = int.Parse(Console.ReadLine());
+    ax = int.Parse(Console.ReadLine());
      
     Console.WriteLine("Informe a posição X do inimigo:");
     bx = int.Parse(Console.ReadLine());
